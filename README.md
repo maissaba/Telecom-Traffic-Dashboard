@@ -4,7 +4,7 @@ This project implements a **Big Data architecture** designed to manage and analy
 
 ### Key Technologies and Tools:
 1. **ETL Pipeline & Data Processing**:
-   - **Apache NiFi**: Used for orchestrating the ETL (Extract, Transform, Load) process. NiFi helps automate data ingestion, transformation, and routing from various sources to a central data repository.
+   - **Apache NiFi**: Used for orchestrating the ELT (Extract, Load, Transform ) process. NiFi helps automate data ingestion, transformation, and routing from various sources to a central data repository.
    - **PySpark**: Used for processing large-scale telecom data, including data transformation, aggregation, and analytics on distributed systems.
    
 2. **Dashboard**:
@@ -59,7 +59,10 @@ The dataset used in this project comes from telecom network traffic logs. This d
 ## Screenshots
 
 ### Power BI Dashboard
-![Power BI Dashboard](Images/PowerBIDashboard.png)
+![image](https://github.com/user-attachments/assets/f5875f18-df2b-4944-9daf-c61b4b6105c4)
+![image](https://github.com/user-attachments/assets/b3bbdac9-7e77-4368-9d97-2fc3eaef9e79)
+![image](https://github.com/user-attachments/assets/4416d045-f7ee-4d7b-85d5-cd7eafad74f7)
+
 
 ## Insights
 
