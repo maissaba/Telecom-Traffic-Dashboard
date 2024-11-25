@@ -17,16 +17,6 @@ The project optimizes revenue assurance by:
 - Transforming and processing large volumes of data using **PySpark** for real-time analysis.
 - Visualizing the data through a **Power BI** dashboard that helps telecom operators monitor and manage network traffic.
 
-## Project Structure
-
-- **Data/**: Contains sample telecom network traffic data used in the analysis.
-- **Code/**: 
-  - **ETL/**: Scripts for processing and transforming data using **PySpark**.
-  - **Orchestration/**: NiFi configurations for data ingestion and flow control.
-- **Architecture/**: Diagrams explaining the architecture of the Big Data pipeline.
-- **Insights/**: Key insights derived from the processed data, including findings related to traffic patterns and revenue assurance opportunities.
-- **Dashboard/**: Power BI dashboard files with reports and visualizations.
-
 ## Technologies Used
 
 - **ETL & Data Processing**: 
@@ -70,22 +60,6 @@ The dataset used in this project comes from telecom network traffic logs. This d
 2. **Revenue Leakage**: Identify patterns in network traffic that correlate with revenue loss.
 3. **Optimization Opportunities**: Insights into network performance that lead to improved operational efficiency.
 
-## How to Run the Project
-
-1. **ETL Pipeline**:
-   - **Apache NiFi**: 
-     - Clone the **Code/Orchestration/** folder, which contains NiFi flow configurations for data ingestion and orchestration.
-     - Install NiFi locally or set up a NiFi cluster to manage your flows.
-     - Import the NiFi templates and configure data sources.
-  
-   - **PySpark**: 
-     - Install **PySpark** on your local machine or use a Spark cluster for processing data.
-     - Modify the **Code/ETL/** folder’s PySpark scripts to match your data sources and processing logic.
-
-2. **Power BI Dashboard**:
-   - Download the Power BI files from the **Dashboard/** folder.
-   - Open the Power BI files and connect them to the processed data source.
-   - Explore the interactive reports to visualize traffic patterns, anomalies, and key insights.
 
 ## Contact
 
